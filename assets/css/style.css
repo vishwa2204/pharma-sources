@@ -704,6 +704,11 @@ h6 {
     border-radius: 25px;
 }
 
+
+.home-category-boxs a:hover{
+    background-color: var(--dBlue);
+}
+
 /* Home About Section  */
 
 .home-about {
@@ -2625,4 +2630,10 @@ footer .footer-boxes .footer-first img {
         object-fit: cover;
     }
 
+}
+
+@media screen and (min-width:768px) and (max-width:950px){
+    .footer-first h5{
+        font-size: 14px !important;
+    }
 }
