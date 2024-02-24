@@ -2319,7 +2319,59 @@ footer .footer-boxes .footer-first img {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:425px){
+    .banner-section {
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 5%;
+        overflow: hidden;
+    }
+
+    .swiper-slide .banner-img {
+        display: block;
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+        position: relative;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -0%);
+    }
+
+    .banner-section img{
+        object-fit: cover;
+    }
+
+
+    .banner-content {
+        width: 90%;
+        height: auto !important;
+        position: relative;
+        top: 00%;
+        left: 5%;
+        margin-top: 5%;
+        transform: translate(0, 0%);
+        overflow: hidden;
+    }
+
+    .swiper-slide .banner-content h1 {
+        color: rgb(0, 21, 112);
+        font-size: 40px !important;
+    }
+
+    .swiper-slide {
+
+        width: 100%;
+        height: 100vh;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
     .banner-section {
         width: 100%;
         height: 85vh;
@@ -2336,6 +2388,10 @@ footer .footer-boxes .footer-first img {
         left: 50%;
         top: 0;
         transform: translate(-50%, -0%);
+    }
+
+    .banner-section img{
+        object-fit: cover;
     }
 
 
