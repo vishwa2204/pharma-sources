@@ -81,7 +81,7 @@ h6 {
 }
 
 .navbar .navbar-brand img {
-    width: 200px;
+    width: 230px;
     height: 90px;
     object-fit: contain;
 }
@@ -226,6 +226,7 @@ h6 {
 }
 
 .nave-hidew h6 {
+    font-size: 12px !important;
     color: var(--color);
 }
 
@@ -391,7 +392,7 @@ h6 {
 }
 
 .navbar .mega-area a {
-    padding: 2% 0;
+    padding: 2% 2%;
     font-size: 12px !important;
 }
 
@@ -734,6 +735,10 @@ h6 {
     z-index: 5 !important;
 }
 
+.home-category-boxs p{
+    font-size: 14px !important;
+}
+
 .home-category-boxs a {
     width: auto;
     padding: 2% 5%;
@@ -853,7 +858,8 @@ h6 {
 
 .home-about-list img {
     width: 47%;
-    height: 150px;
+    height: 130px;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -864,6 +870,7 @@ h6 {
 .home-about-listsContainer ul li {
     color: var(--white);
     margin-bottom: 3%;
+    font-size: 14px;
 }
 
 .home-about-listsContainer ul li::marker {
